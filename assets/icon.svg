@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128px" height="128px" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon 128@1x</title>
+    <defs>
+        <filter x="-19.9%" y="-19.9%" width="139.8%" height="139.8%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.148324275 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Icon-128" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Background" fill="#0055FF" transform="translate(64.000000, 64.000000) rotate(180.000000) translate(-64.000000, -64.000000) " x="1.42108547e-14" y="-7.10542736e-15" width="128" height="128" rx="10"></rect>
+        <g id="12.-Mosaic-Gallery" filter="url(#filter-1)" transform="translate(20.000000, 20.000000)" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="13.8211382">
+            <path d="M39.0894309,6.91056911 L39.0894309,29.0894309 L6.91056911,29.0894309 L6.91056911,6.91056911 L39.0894309,6.91056911 Z" id="Fill-1"></path>
+            <path d="M81.0894309,50.9105691 L81.0894309,81.0894309 L51.9105691,81.0894309 L51.9105691,50.9105691 L81.0894309,50.9105691 Z" id="Fill-2"></path>
+            <path d="M29.0894309,50.9105691 L29.0894309,81.0894309 L6.91056911,81.0894309 L6.91056911,50.9105691 L29.0894309,50.9105691 Z" id="Fill-3"></path>
+            <path d="M81.0894309,6.91056911 L81.0894309,29.0894309 L61.9105691,29.0894309 L61.9105691,6.91056911 L81.0894309,6.91056911 Z" id="Fill-4"></path>
+        </g>
+    </g>
+</svg>
